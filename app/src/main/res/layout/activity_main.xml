@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyuan PDA3109 RFID 測試"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="開始讀取 RFID"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txtRawHex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原始 Hex: (尚未讀取)"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/txtAsciiResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解碼 ASCII: (尚未讀取)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#008800" />
+
+</LinearLayout>
